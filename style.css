@@ -1,0 +1,45 @@
+/* General element selector */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Class selector */
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ID selector */
+#main-title {
+  color: #2c3e50;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+/* Image styling */
+.profile-img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  border: 4px solid #3498db;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Paragraph style */
+.card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px 0;
+}
